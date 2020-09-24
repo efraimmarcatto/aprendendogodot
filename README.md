@@ -3,6 +3,9 @@ Aprendendo a desenvolver usando a Godot Engine através do canal da [Twitch](htt
 # Metroidvania
 O jogo será 2D no estilo Metroidvania!
 
+## Links
+[Trello do Projeto](https://trello.com/b/qUzBWN3M/gamedev-twitchtv-efraimmarcatto)
+
 ## Ferramentas escolhidas
 
 + [Godot Engine](https://godotengine.org/)
@@ -11,6 +14,7 @@ O jogo será 2D no estilo Metroidvania!
 
 ## Tutoriais recomendados para começar!
 Em breve!
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
