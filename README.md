@@ -9,7 +9,7 @@ O jogo será 2D no estilo Metroidvania!
 ## Ferramentas escolhidas
 
 + [Godot Engine](https://godotengine.org/)
-+ [Aseprite](https://www.aseprite.org/)
++ [LibreSprite](https://github.com/LibreSprite/LibreSprite)
 + [Trello](https://www.aseprite.org/)
 
 ## Tutoriais recomendados para começar!
