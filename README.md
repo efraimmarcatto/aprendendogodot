@@ -2,6 +2,7 @@
 Aprendendo a desenvolver usando a Godot Engine através do canal da [Twitch](https://www.twitch.tv/efraimmarcatto)
 # Metroidvania
 O jogo será 2D no estilo Metroidvania!
+Tamanho da tela será de 384x216.
 
 ## Links
 [Trello do Projeto](https://trello.com/b/qUzBWN3M/gamedev-twitchtv-efraimmarcatto)
