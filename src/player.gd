@@ -11,21 +11,23 @@ func _ready():
 	
 func _physics_process(delta):
 	movement_velocity.x = 0
-	$AnimatedSprite.play("idle")
 	_move_gravity()
 	_move_left()
 	_move_right()
 	_move_jump()
 	_move()
-	
+		
 func _move_left():
 	if Input.is_action_pressed("ui_left"):
 		movement_velocity = movement_velocity - move_speed
-		
+		$AnimatedSprite.scale.x = -1
+		$AnimatedSprite.play("run")
 		
 func _move_right():
 	if Input.is_action_pressed("ui_right"):
 		movement_velocity = movement_velocity + move_speed
+		if $AnimatedSprite.scale.x == -1:
+			$AnimatedSprite.scale.x = 1
 		$AnimatedSprite.play("run")
 		
 func _move_jump():
@@ -41,6 +43,8 @@ func _move_gravity():
 		$AnimatedSprite.play("fall")
 
 func _move():
+	if movement_velocity.x == 0:
+		$AnimatedSprite.play("idle")
 	move_and_slide(movement_velocity, floor_normal)
 
 
