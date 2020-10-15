@@ -140,18 +140,24 @@ height = 7.33853
 
 [node name="Main" type="Node"]
 
+[node name="Node2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 26.1988, 134.219 )
+
 [node name="player" type="KinematicBody2D" parent="."]
+position = Vector2( -408.618, 191.818 )
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="player"]
 position = Vector2( 191.883, 54.626 )
 frames = SubResource( 22 )
 animation = "idle"
-frame = 2
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
 position = Vector2( 184.08, 56.3364 )
 shape = SubResource( 23 )
 
-[node name="Node2D" parent="." instance=ExtResource( 4 )]
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 178.327, 62.2711 )
+current = true
